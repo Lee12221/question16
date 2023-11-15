@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>리빙샵아울렛</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/jquery-1.12.4.min.js"></script>
+</head>
+<body>
+    <!-- #wrap>#left+#right^#footer -->
+    <div id="wrap">
+        <div id="left">
+            <div class="logo">
+                <a href="#"><img src="img/logo.png" alt="로고"></a>
+            </div>
+            <nav>
+                <!-- ul.gnb>li*4>a[href="#"]{버튼$}+ul.sub>li*4>a[href="#"]{s버튼$} -->
+                <ul class="gnb">
+                    <li>
+                        <a href="#">버튼1</a>
+                        <ul class="sub">
+                            <li><a href="#">s버튼1</a></li>
+                            <li><a href="#">s버튼2</a></li>
+                            <li><a href="#">s버튼3</a></li>
+                            <li><a href="#">s버튼4</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">버튼2</a>
+                        <ul class="sub">
+                            <li><a href="#">s버튼1</a></li>
+                            <li><a href="#">s버튼2</a></li>
+                            <li><a href="#">s버튼3</a></li>
+                            <li><a href="#">s버튼4</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">버튼3</a>
+                        <ul class="sub">
+                            <li><a href="#">s버튼1</a></li>
+                            <li><a href="#">s버튼2</a></li>
+                            <li><a href="#">s버튼3</a></li>
+                            <li><a href="#">s버튼4</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">버튼4</a>
+                        <ul class="sub">
+                            <li><a href="#">s버튼1</a></li>
+                            <li><a href="#">s버튼2</a></li>
+                            <li><a href="#">s버튼3</a></li>
+                            <li><a href="#">s버튼4</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div id="right">
+            <div id="slide">
+                <!-- ul>li*3>a[href="#"]>div.text -->
+                <ul>
+                    <li>
+                        <a href="#">
+                            <div class="text">
+                                유기/티타늄/스테인레스<br>
+                                업소용 수저 세트
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="text">
+                                미니국통/보온보냉<br>
+                                전기 물 끓이기
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="text">
+                                쉽다. 빠르다. <br>
+                                모바일 Pay!
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div id="link">
+                <!-- ul>li*7>a[href="#"]>img[src="img/ca_ico$$.png" alt="link$"] -->
+                <ul>
+                    <li><a href="#"><img src="img/ca_ico01.png" alt="link1">칼/가위/도마</a></li>
+                    <li><a href="#"><img src="img/ca_ico02.png" alt="link2">주방잡화</a></li>
+                    <li><a href="#"><img src="img/ca_ico03.png" alt="link3">주방가전</a></li>
+                    <li><a href="#"><img src="img/ca_ico04.png" alt="link4">위생/보관용기</a></li>
+                    <li><a href="#"><img src="img/ca_ico05.png" alt="link5">주방그릇</a></li>
+                    <li><a href="#"><img src="img/ca_ico06.png" alt="link6">온도계/축정기</a></li>
+                    <li><a href="#"><img src="img/ca_ico07.png" alt="link7">카트/웨건</a></li>
+                </ul>
+            </div>
+            <div id="recent">
+                <section>
+                    <div class="title">공지사항</div>
+                    <!-- ul.notice>li*4>a[href="#"]>div.subject+div.date -->
+                    <ul class="notice">
+                        <li>
+                            <a href="#">
+                                <div class="subject">카카오톡 상담서비스 실시	</div>
+                                <div class="date">2023-07-25</div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="subject">상담지연안내	</div>
+                                <div class="date">2023-07-20</div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="subject">송장전송 후 출고일/배송 안내	</div>
+                                <div class="date">2023-06-25</div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="subject">위탁판매를 위한 사업자 회원 안내	</div>
+                                <div class="date">2023-06-15</div>
+                            </a>
+                        </li>
+                    </ul>
+                </section>
+                <section>
+                    <div class="title">갤러리</div>
+                    <!-- ul.gallery>li*3>a[href="#"]>img[src="img/gallery$.jpg" alt="gallery$"] -->
+                    <ul class="gallery">
+                        <li><a href="#"><img src="img/gallery1.jpg" alt="gallery1">전기 물끓이기</a></li>
+                        <li><a href="#"><img src="img/gallery2.jpg" alt="gallery2">PC 물컵 모음</a></li>
+                        <li><a href="#"><img src="img/gallery3.jpg" alt="gallery3">간편 조립 카트</a></li>
+                    </ul>
+                </section>
+            </div>
+        </div>
+    </div>
+    <div id="footer">
+        <div class="f_left"></div>
+        <div class="f_main">
+            <div class="f_menu">
+                <a href="#">회사소개</a> | 
+                <a href="#">이용안내</a> | 
+                <a href="#">개인정보 처리방침</a> | 
+                <a href="#">이용약관</a> | 
+                <a href="#">고객센터</a> | 
+                <a href="#">가맹점</a>
+            </div>
+            <div class="copy">
+                상호명 : 리빙샵아울렛 / 대표 : 장순문 / 전화 : 1600-8069 / <br>
+                주소 : 전라북도 완주군 구이면 구이로 669 / 사업자등록번호 : 465-88-00942 통신판매업신고 : 제2017-전주완산-0546호 <br>
+
+                COPYRIGHT BY LIVI SHOP OUTLET ALL RIGHTS RESERVED.
+            </div>
+        </div>
+        <div class="family">
+            <select name="family" id="family">
+                <option value="">패밀리 사이트</option>
+                <option value="">공정거래위원회</option>
+                <option value="">서울보증보험</option>
+                <option value="">한국외식업중앙회</option>
+            </select>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
